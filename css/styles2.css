@@ -1,0 +1,81 @@
+
+html,body
+{
+margin: 0;
+padding: 0;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.bg-ligh {
+    --bs-bg-opacity: 1;
+}
+.container{
+justify-content: center;
+align-items: center;
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px; /* Agrega espacio interno */
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+.btn2
+{
+width: 90px;
+height: 65px;
+background-color: #ffffff;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 2em;
+margin-right: 1em;
+cursor: pointer;
+transition: all 0.3s;
+border-radius: 10px;
+}
+i.fa
+{
+font-size: 44px;
+}
+#fb
+{
+color: #006fff;
+text-shadow: 0 0 30px #006fff;
+}
+#ig
+{
+color: #ff5f40;
+text-shadow: 0 0 30px #ff5f40;
+}
+#tw
+{
+color: #00acff;
+text-shadow: 0 0 30px #00acff;
+}
+.btn2.fb-btn
+{
+box-shadow: 0 20px 20px -17px rgba(0,111,255,0.53);
+}
+.btn2.fb-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(0,111,255,0.65);
+}
+.btn2.ig-btn
+{
+box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
+}
+.btn2.ig-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(255,16,39,0.57);
+}
+.btn2.wh-btn
+{
+box-shadow: 0 20px 20px -17px rgba(4, 255, 0, 0.53);
+}
+.btn2.wh-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(0, 255, 21, 0.6);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="icon" href="img/logo.ico" type="image/x-icon">
+    
+    <script>
+        function showPage() {
+            // Simulamos una carga de página exitosa después de 2 segundos (2000 ms).
+            setTimeout(function() {
+                window.location.href = "php/main.php";
+            }, 5000);
+        }
+    
+        function showErrorPage() {
+            window.location.href = "error404.html";
+        }
+    
+        // Llamamos a la función showPage() al cargar la página.
+        showPage();
+    </script>
+</head>
+<body>
+    ​<div class="loading">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <p>Cargando...</p>
+      </div>
+</body>
+</html>
